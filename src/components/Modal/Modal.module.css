@@ -1,0 +1,25 @@
+.backgroundModal{
+    background-color: rgba(0, 0, 0, .6);
+    width: 98%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.modal{
+    background-color:rgba(0, 0, 0, .95);
+    width: 60vw;
+    padding: 3rem;
+}
+
+.modalHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.modalHeader svg{
+    font-size: 3rem;
+}
